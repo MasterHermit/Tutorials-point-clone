@@ -1,0 +1,111 @@
+{
+    "aiml": [
+        {
+            "id": "1",
+            "c_name": "first course",
+            "thumb": "",
+            "author": "mathy fox",
+            "time_dur": "10",
+            "no_of_lec": "28",
+            "value": "free"
+        },
+        {
+            "id": "2",
+            "c_name": "second course",
+            "thumb": "",
+            "author": "sylia alexis",
+            "time_dur": "20",
+            "no_of_lec": "45",
+            "value": "paid"
+        },
+        {
+            "id": "3",
+            "c_name": "third course",
+            "thumb": "",
+            "author": "mexin leo",
+            "time_dur": "39",
+            "no_of_lec": "69",
+            "value": "paid"
+        },
+        {
+            "id": "4",
+            "c_name": "fourth course",
+            "author": "neo maxim",
+            "time_dur": "78",
+            "no_of_lec": "97",
+            "value": "paid"
+        }
+    ],
+    "dev": [
+        {
+            "id": "5",
+            "c_name": "react in a nutshell",
+            "author": "phyllis",
+            "time_dur": "78",
+            "no_of_lec": "97",
+            "value": "paid"
+        },
+        {
+            "id": "6",
+            "c_name": "ruby on rails",
+            "author": "rily reid",
+            "time_dur": "45",
+            "no_of_lec": "78",
+            "value": "paid"
+        }
+    ],
+    "itn": [
+        {
+            "id": "7",
+            "c_name": "networking smoothly",
+            "author": "jhonny net",
+            "time_dur": "45",
+            "no_of_lec": "78",
+            "value": "paid"
+        },
+        {
+            "id": "8",
+            "c_name": "it fundamentals",
+            "author": "suri soopara",
+            "time_dur": "15",
+            "no_of_lec": "25",
+            "value": "free"
+        }
+    ],
+    "cys": [
+        {
+            "id": "9",
+            "c_name": "cyber - security",
+            "author": "manish saxena",
+            "time_dur": "78",
+            "no_of_lec": "125",
+            "value": "paid"
+        },
+        {
+            "id": "10",
+            "c_name": "fundamentals of cyber security",
+            "author": "lupin",
+            "time_dur": "55",
+            "no_of_lec": "89",
+            "value": "free"
+        }
+    ],
+    "mar": [
+        {
+            "id": "11",
+            "c_name": "basic of marketing",
+            "author": "mark ruffalo",
+            "time_dur": "5",
+            "no_of_lec": "12",
+            "value": "free"
+        },
+        {
+            "id": "12",
+            "c_name": "how to negotiate",
+            "author": "serpa tanzing",
+            "time_dur": "15",
+            "no_of_lec": "35",
+            "value": "paid"
+        }
+    ]
+}
