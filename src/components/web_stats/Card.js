@@ -6,7 +6,7 @@ const Card = ( { title, desc, Icon, color, iconColor } ) => {
             <Icon className="h-16 w-16 pr-2" style={ { color: iconColor } } />
             <div className='flex-col'>
                 <h4 className='font-semibold font-sans'>{ desc }</h4>
-                <h7 className='font-serif'>{ title }</h7>
+                <h5 className='font-serif'>{ title }</h5>
             </div>
         </div>
     )
