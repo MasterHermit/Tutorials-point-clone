@@ -1,8 +1,6 @@
-import './components/navbar/Navbar'
-import Navbar from './components/navbar/Navbar';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import Navbar from './components/navbar/Navbar';
 import Home from "./pages/Home/Home";
 import Jobs from "./pages/Jobs/Jobs";
 import Quiz from "./pages/Quiz/Quiz";
