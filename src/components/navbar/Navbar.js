@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { changeDarkMode } from "../../store";
 import {
   FaCode,
   FaHome,
@@ -15,7 +17,19 @@ import { BiCategory } from "react-icons/bi";
 import ToggleButton from "react-toggle-button";
 
 const Navbar1 = () => {
+
+  //const dispatch = useDispatch();
+  const isDark = useSelector( ( { user } ) => {
+    return user.isDark;
+  } );
+  console.log( isDark );
   const [ toggle, setToggle ] = useState( false );
+
+
+  function handleToggleChange () {
+    setToggle( ( toggle ) => !toggle );
+    // dispatch(changeDarkMode(toggle));
+  }
 
   return (
     <div className="flex bg-zinc-300 space-x-80">
@@ -56,12 +70,9 @@ const Navbar1 = () => {
       {/* right container */ }
       <div className="flex pl-36">
         <div className="flex flex-initial items-center pr-10">
-          <ToggleButton
-            value={ toggle }
-            onToggle={ () => {
-              setToggle( ( value ) => !value );
-            } }
-          />
+
+          <ToggleButton value={ toggle } onToggle={ handleToggleChange } />
+
         </div>
         <div className="flex flex-initial items-center pr-10 ">
           <SiGoogleclassroom className="pr-2 h-8 w-8" />
