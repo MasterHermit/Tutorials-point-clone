@@ -1,39 +1,29 @@
+import { FaUser, FaExternalLinkAlt } from 'react-icons/fa'
+
 import './CourseCard.css'
-const CourseCards = ( { author } ) => {
+
+
+const CourseCards = ( { category } ) => {
     return (
-        <div className="course-card " style={ { display: 'flex' } }>
-            <div className="thumbnail">
-                <div className="course-card-image">
-                    <a href="/">
-                        <img className="not-img img-res" src="https://assets.entrepreneur.com/content/3x2/2000/20141031174145-15-free-online-learning-sites.jpeg" alt="pic1" />
-                    </a>
+        <div className='main_card ml-20'>
+            <div className='thumb'>
+                <img src='https://images.unsplash.com/photo-1655720840699-67e72c0909d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' alt='coursePic' />
+            </div>
+            <div className='pl-3'>
+                <h2 className='font-medium mb-8'>Course title</h2>
+                <div className='flex flex-initial items-center'>
+                    <FaUser />
+                    <span className='mx-2 font-normal'>Ankush Das</span>
+                    <FaExternalLinkAlt />
                 </div>
-                <div className="caption">
-                    <div className="course-title">
-                        <h3 className="course-title-heading">
-                            <a className="not-a" href="/"> Course Name 1</a>
-                        </h3>
-                    </div>
-                    <div className="course-fav-cost row">
-                        <div className="course-rating-star">
-                            <small>Rating</small>
-                            <br />
-                            <div className="course-rating">
-                                <span><span> ☆</span><span className="active"> ☆</span><span> ☆</span><span> ☆</span><span> ☆</span></span>
-                            </div>
-                        </div>
-                        <div className="course-fav-price text-right">
-                            <small>Price</small>
-                            <div className="price-dollar">₹01234.50</div>
-                        </div>
-                    </div>
-                    <div className="course-card-foot">
-                        <img align="left" className="not-img course-card-foot-img" src="http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png" alt="pic" />
-                        <div className="course-card-foot-name main-name">
-                            Full Name
-                        </div>
-                    </div>
-                </div>
+            </div>
+            <hr />
+            <div className='flex flex-row justify-between'>
+                <p className='ml-3'>6 Lecture</p>
+                <p className='mr-3'>rating</p>
+            </div>
+            <div className='pb-3'>
+                <p className='font-bold'>Paid</p>
             </div>
         </div>
     )
