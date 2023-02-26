@@ -12,7 +12,7 @@ const CourseCards = ( { category } ) => {
             <div className='pl-3'>
                 <div className='flex flex-initial items-center justify-between'>
                     <h2 className='font-medium mb-8 mt-2 text-xl'>{ category.c_name }</h2>
-                    <h2 className='font-medium mb-8 mt-2 text-xl'>{ category.value }</h2>
+                    <h2 className='font-medium mb-8 mt-2 text-xl pr-3'>{ category.value }</h2>
                 </div>
                 <div className='flex flex-initial items-center'>
                     <FaUser />
