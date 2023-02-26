@@ -1,4 +1,4 @@
-//import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { changeDarkMode } from "../../store";
@@ -18,16 +18,26 @@ import ToggleButton from "react-toggle-button";
 
 const Navbar1 = () => {
   const dispatch = useDispatch();
-  const isDark = useSelector(({ user }) => {
-    return user.isDark;
-  });
+  const [isDark, setIsDark] = useState(
+    useSelector(({ user }) => {
+      console.log(user.isDark);
+      return user.isDark;
+    })
+  );
 
   function handleToggleChange() {
-    dispatch(changeDarkMode(!isDark));
+    dispatch(changeDarkMode());
+    setIsDark((prevValue) => !prevValue);
+  }
+  let bg = "";
+  if (isDark) {
+    bg = "bg-[#1f2937] text-white";
+  } else {
+    bg = "bg-white";
   }
 
   return (
-    <div className={`flex  space-x-80`}>
+    <div className={`flex ${bg} space-x-80`}>
       {/* left container */}
       <div className="flex">
         <img

@@ -1,8 +1,10 @@
 .hero{
-background-color:hsla(108, 92%, 42%, 0.99);
-background-image:
- radial-gradient(at 9% 98%, hsla(122, 55%, 49%, 1) 0px, transparent 50%),
-radial-gradient(at 35% 39%, hsla(108, 55%, 49%, 1) 0px, transparent 50%);
 width: 100%;
 height: 30vh;
+}
+.bright{
+    background-color: hsla(108, 92%, 42%, 0.99);
+        background-image:
+            radial-gradient(at 9% 98%, hsla(122, 55%, 49%, 1) 0px, transparent 50%),
+            radial-gradient(at 35% 39%, hsla(108, 55%, 49%, 1) 0px, transparent 50%);
 }
