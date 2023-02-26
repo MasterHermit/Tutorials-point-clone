@@ -9,8 +9,8 @@ const Jobs = () => {
   } else if (error) {
     jobs = <div>{error}</div>;
   } else {
-    // jobs = data;
-    console.log(data);
+    jobs = data;
+    console.log(jobs);
   }
   return <div>Jobs</div>;
 };
