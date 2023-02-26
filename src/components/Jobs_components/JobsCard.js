@@ -35,7 +35,7 @@ const JobsCard = ( { job } ) => {
                             <p>Stipend</p>
                         </div>
                         <div className='flex flex-row items-center'>
-                            <p className='mr-1'>`${ job.salary } + Incentives`</p>
+                            <p className='mr-1'>${ job.salary } + Incentives</p>
                             <GoQuestion />
                         </div>
                     </div>
