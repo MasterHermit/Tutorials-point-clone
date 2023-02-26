@@ -7,7 +7,7 @@ const coursesApi = createApi({
   }),
   endpoints(builder) {
     return {
-      fetchPosts: builder.query({
+      fetchCourses: builder.query({
         query: () => {
           return {
             url: "/courses",
