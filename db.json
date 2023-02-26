@@ -1,132 +1,104 @@
 {
     "courses": [
         {
-            "aiml": [
-                {
-                    "id": "1",
-                    "c_name": "first course",
-                    "thumb": "https://images.unsplash.com/photo-1655720840699-67e72c0909d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                    "author": "mathy fox",
-                    "time_dur": "10",
-                    "no_of_lec": "28",
-                    "value": "free"
-                },
-                {
-                    "id": "2",
-                    "c_name": "second course",
-                    "thumb": "https://plus.unsplash.com/premium_photo-1677094310893-0d6594c211ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YWl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                    "author": "sylia alexis",
-                    "time_dur": "20",
-                    "no_of_lec": "45",
-                    "value": "paid"
-                },
-                {
-                    "id": "3",
-                    "c_name": "third course",
-                    "thumb": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                    "author": "mexin leo",
-                    "time_dur": "39",
-                    "no_of_lec": "69",
-                    "value": "paid"
-                },
-                {
-                    "id": "4",
-                    "c_name": "fourth course",
-                    "thumb": "https://images.unsplash.com/photo-1655635643568-f30d5abc618a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGFpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-                    "author": "neo maxim",
-                    "time_dur": "78",
-                    "no_of_lec": "97",
-                    "value": "paid"
-                }
-            ]
+            "id": "1",
+            "c_category": "aiml",
+            "c_name": "first course",
+            "thumb": "https://images.unsplash.com/photo-1655720840699-67e72c0909d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "author": "mathy fox",
+            "time_dur": "10",
+            "no_of_lec": "28",
+            "value": "free"
         },
         {
-            "dev": [
-                {
-                    "id": "5",
-                    "c_name": "react in a nutshell",
-                    "thumb": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                    "author": "phyllis",
-                    "time_dur": "78",
-                    "no_of_lec": "97",
-                    "value": "paid"
-                },
-                {
-                    "id": "6",
-                    "c_name": "ruby on rails",
-                    "thumb": "https://images.unsplash.com/photo-1522777183857-cb4be6839fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cnVieXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-                    "author": "rily reid",
-                    "time_dur": "45",
-                    "no_of_lec": "78",
-                    "value": "paid"
-                }
-            ]
+            "id": "2",
+            "c_category": "aiml",
+            "c_name": "second course",
+            "thumb": "https://plus.unsplash.com/premium_photo-1677094310893-0d6594c211ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YWl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "author": "sylia alexis",
+            "time_dur": "20",
+            "no_of_lec": "45",
+            "value": "paid"
         },
         {
-            "itn": [
-                {
-                    "id": "7",
-                    "c_name": "networking smoothly",
-                    "thumb": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmV0d29ya2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-                    "author": "jhonny net",
-                    "time_dur": "45",
-                    "no_of_lec": "78",
-                    "value": "paid"
-                },
-                {
-                    "id": "8",
-                    "c_name": "it fundamentals",
-                    "thumb": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                    "author": "suri soopara",
-                    "time_dur": "15",
-                    "no_of_lec": "25",
-                    "value": "free"
-                }
-            ]
+            "id": "5",
+            "c_category": "dev",
+            "c_name": "react in a nutshell",
+            "thumb": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "author": "phyllis",
+            "time_dur": "78",
+            "no_of_lec": "97",
+            "value": "paid"
         },
         {
-            "cys": [
-                {
-                    "id": "9",
-                    "c_name": "cyber - security",
-                    "thumb": "https://plus.unsplash.com/premium_photo-1674506654010-22677db35bdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGN5YmVyJTIwc2VjdXJpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                    "author": "manish saxena",
-                    "time_dur": "78",
-                    "no_of_lec": "125",
-                    "value": "paid"
-                },
-                {
-                    "id": "10",
-                    "c_name": "fundamentals of cyber security",
-                    "thumb": "https://images.unsplash.com/photo-1614064548237-096f735f344f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y3liZXIlMjBzZWN1cml0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-                    "author": "lupin",
-                    "time_dur": "55",
-                    "no_of_lec": "89",
-                    "value": "free"
-                }
-            ]
+            "id": "6",
+            "c_category": "dev",
+            "c_name": "ruby on rails",
+            "thumb": "https://images.unsplash.com/photo-1522777183857-cb4be6839fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cnVieXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "author": "rily reid",
+            "time_dur": "45",
+            "no_of_lec": "78",
+            "value": "paid"
         },
         {
-            "mar": [
-                {
-                    "id": "11",
-                    "c_name": "basic of marketing",
-                    "thumb": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFya2V0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-                    "author": "mark ruffalo",
-                    "time_dur": "5",
-                    "no_of_lec": "12",
-                    "value": "free"
-                },
-                {
-                    "id": "12",
-                    "c_name": "how to negotiate",
-                    "thumb": "https://plus.unsplash.com/premium_photo-1667516594977-a33601d8056e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hcmtldGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-                    "author": "serpa tanzing",
-                    "time_dur": "15",
-                    "no_of_lec": "35",
-                    "value": "paid"
-                }
-            ]
+            "id": "7",
+            "c_category": "itn",
+            "c_name": "networking smoothly",
+            "thumb": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmV0d29ya2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "author": "jhonny net",
+            "time_dur": "45",
+            "no_of_lec": "78",
+            "value": "paid"
+        },
+        {
+            "id": "8",
+            "c_category": "itn",
+            "c_name": "it fundamentals",
+            "thumb": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "author": "suri soopara",
+            "time_dur": "15",
+            "no_of_lec": "25",
+            "value": "free"
+        },
+        {
+            "id": "9",
+            "c_category": "cys",
+            "c_name": "cyber - security",
+            "thumb": "https://plus.unsplash.com/premium_photo-1674506654010-22677db35bdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGN5YmVyJTIwc2VjdXJpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "author": "manish saxena",
+            "time_dur": "78",
+            "no_of_lec": "125",
+            "value": "paid"
+        },
+        {
+            "id": "10",
+            "c_category": "cys",
+            "c_name": "fundamentals of cyber security",
+            "thumb": "https://images.unsplash.com/photo-1614064548237-096f735f344f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y3liZXIlMjBzZWN1cml0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "author": "lupin",
+            "time_dur": "55",
+            "no_of_lec": "89",
+            "value": "free"
+        },
+        {
+            "id": "11",
+            "c_category": "mar",
+            "c_name": "basic of marketing",
+            "thumb": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFya2V0aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+            "author": "mark ruffalo",
+            "time_dur": "5",
+            "no_of_lec": "12",
+            "value": "free"
+        },
+        {
+            "id": "12",
+            "c_category": "mar",
+            "c_name": "how to negotiate",
+            "thumb": "https://plus.unsplash.com/premium_photo-1667516594977-a33601d8056e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hcmtldGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+            "author": "serpa tanzing",
+            "time_dur": "15",
+            "no_of_lec": "35",
+            "value": "paid"
         }
     ]
 }
