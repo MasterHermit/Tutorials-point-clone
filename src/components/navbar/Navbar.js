@@ -1,4 +1,4 @@
-import { useState } from "react";
+//import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { changeDarkMode } from "../../store";
@@ -17,23 +17,18 @@ import { BiCategory } from "react-icons/bi";
 import ToggleButton from "react-toggle-button";
 
 const Navbar1 = () => {
-
-  //const dispatch = useDispatch();
-  const isDark = useSelector( ( { user } ) => {
+  const dispatch = useDispatch();
+  const isDark = useSelector(({ user }) => {
     return user.isDark;
-  } );
-  console.log( isDark );
-  const [ toggle, setToggle ] = useState( false );
+  });
 
-
-  function handleToggleChange () {
-    setToggle( ( toggle ) => !toggle );
-    // dispatch(changeDarkMode(toggle));
+  function handleToggleChange() {
+    dispatch(changeDarkMode(!isDark));
   }
 
   return (
-    <div className="flex bg-zinc-300 space-x-80">
-      {/* left container */ }
+    <div className={`flex  space-x-80`}>
+      {/* left container */}
       <div className="flex">
         <img
           src="https://images.ctfassets.net/hrltx12pl8hq/3MiLYuOESJbXrwoeXUI012/ccba97119444af2f25aa9cfddaf844bf/05-logos_548082964.jpg?fit=fill&w=480&h=270&fm=webp"
@@ -66,13 +61,11 @@ const Navbar1 = () => {
           </div>
         </Link>
       </div>
-      {/* left container ends */ }
-      {/* right container */ }
+      {/* left container ends */}
+      {/* right container */}
       <div className="flex pl-36">
         <div className="flex flex-initial items-center pr-10">
-
-          <ToggleButton value={ toggle } onToggle={ handleToggleChange } />
-
+          <ToggleButton value={isDark} onToggle={handleToggleChange} />
         </div>
         <div className="flex flex-initial items-center pr-10 ">
           <SiGoogleclassroom className="pr-2 h-8 w-8" />
@@ -94,8 +87,8 @@ const Navbar1 = () => {
           </button>
         </div>
       </div>
-      {/* right container ends */ }
-    </div >
+      {/* right container ends */}
+    </div>
   );
 };
 
