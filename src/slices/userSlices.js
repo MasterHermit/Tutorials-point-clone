@@ -6,8 +6,8 @@ const userSlice = createSlice({
     isDark: false,
   },
   reducers: {
-    changeDarkMode(state, action) {
-      state.isDark = action.payload;
+    changeDarkMode(state) {
+      state.isDark = !state.isDark;
     },
   },
 });
