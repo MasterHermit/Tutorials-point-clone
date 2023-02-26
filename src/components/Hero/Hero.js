@@ -8,7 +8,7 @@ const Hero = () => {
   let bg;
   bg = isDark ? "bg-[#111827] text-white" : "bright";
   return (
-    <div className={`hero ${bg} flex item-center justify-center`}>
+    <div className={`w-full ${bg} flex item-center justify-center h-80`}>
       <SearchBar />
     </div>
   );
