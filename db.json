@@ -8,7 +8,8 @@
             "author": "mathy fox",
             "time_dur": "10",
             "no_of_lec": "28",
-            "value": "free"
+            "value": "free",
+            "ratting": "5"
         },
         {
             "id": "2",
@@ -18,7 +19,8 @@
             "author": "sylia alexis",
             "time_dur": "20",
             "no_of_lec": "45",
-            "value": "paid"
+            "value": "paid",
+            "ratting": "4.5"
         },
         {
             "id": "5",
@@ -28,7 +30,8 @@
             "author": "phyllis",
             "time_dur": "78",
             "no_of_lec": "97",
-            "value": "paid"
+            "value": "paid",
+            "ratting": "3"
         },
         {
             "id": "6",
@@ -38,7 +41,8 @@
             "author": "rily reid",
             "time_dur": "45",
             "no_of_lec": "78",
-            "value": "paid"
+            "value": "paid",
+            "ratting": "5"
         },
         {
             "id": "7",
@@ -48,7 +52,8 @@
             "author": "jhonny net",
             "time_dur": "45",
             "no_of_lec": "78",
-            "value": "paid"
+            "value": "paid",
+            "ratting": "5"
         },
         {
             "id": "8",
@@ -58,7 +63,8 @@
             "author": "suri soopara",
             "time_dur": "15",
             "no_of_lec": "25",
-            "value": "free"
+            "value": "free",
+            "ratting": "4.5"
         },
         {
             "id": "9",
@@ -68,7 +74,8 @@
             "author": "manish saxena",
             "time_dur": "78",
             "no_of_lec": "125",
-            "value": "paid"
+            "value": "paid",
+            "ratting": "5"
         },
         {
             "id": "10",
@@ -78,7 +85,8 @@
             "author": "lupin",
             "time_dur": "55",
             "no_of_lec": "89",
-            "value": "free"
+            "value": "free",
+            "ratting": "3.8"
         },
         {
             "id": "11",
@@ -88,7 +96,8 @@
             "author": "mark ruffalo",
             "time_dur": "5",
             "no_of_lec": "12",
-            "value": "free"
+            "value": "free",
+            "ratting": "5"
         },
         {
             "id": "12",
@@ -98,7 +107,37 @@
             "author": "serpa tanzing",
             "time_dur": "15",
             "no_of_lec": "35",
-            "value": "paid"
+            "value": "paid",
+            "ratting": "4.5"
+        }
+    ],
+    "jobs": [
+        {
+            "id": "gsdfsgf",
+            "title": "java developer",
+            "company": "infosys",
+            "salary": "3-4.5 ctc",
+            "location": "bhubaneswar",
+            "start_date": "16-2-2022",
+            "work_mode": "in-office"
+        },
+        {
+            "id": "gsdfsssfdf",
+            "title": "react developer",
+            "company": "infosys",
+            "salary": "13-14.5 ctc",
+            "location": "bhubaneswar",
+            "start_date": "16-2-2022",
+            "work_mode": "in-office"
+        },
+        {
+            "id": "gsdfsgfbhjf",
+            "title": "rust developer",
+            "company": "ola",
+            "salary": "16 lpa",
+            "location": "bangalore",
+            "start_date": "6-3-2022",
+            "work_mode": "remote"
         }
     ]
 }

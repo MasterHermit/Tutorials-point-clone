@@ -20,7 +20,6 @@ const Navbar1 = () => {
   const dispatch = useDispatch();
   const [isDark, setIsDark] = useState(
     useSelector(({ user }) => {
-      console.log(user.isDark);
       return user.isDark;
     })
   );
