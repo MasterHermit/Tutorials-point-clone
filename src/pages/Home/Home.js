@@ -1,7 +1,13 @@
-import React from "react";
+import StatsCard from '../../components/web_stats/StatsCard'
+import PremiumCards from '../../components/PremiumPacks/PremiumCards'
 
 const Home = () => {
-  return <div>Home</div>;
-};
+  return (
+    <div>
+      <StatsCard />
+      <PremiumCards />
+    </div>
+  )
+}
 
-export default Home;
+export default Home

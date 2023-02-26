@@ -15,11 +15,11 @@ import { BiCategory } from "react-icons/bi";
 import ToggleButton from "react-toggle-button";
 
 const Navbar1 = () => {
-  const [toggle, setToggle] = useState(false);
+  const [ toggle, setToggle ] = useState( false );
 
   return (
-    <div className="flex bg-zinc-300 space-x-80 ">
-      {/* left container */}
+    <div className="flex bg-zinc-300 space-x-80">
+      {/* left container */ }
       <div className="flex">
         <img
           src="https://images.ctfassets.net/hrltx12pl8hq/3MiLYuOESJbXrwoeXUI012/ccba97119444af2f25aa9cfddaf844bf/05-logos_548082964.jpg?fit=fill&w=480&h=270&fm=webp"
@@ -52,15 +52,15 @@ const Navbar1 = () => {
           </div>
         </Link>
       </div>
-      {/* left container ends */}
-      {/* right container */}
+      {/* left container ends */ }
+      {/* right container */ }
       <div className="flex pl-36">
         <div className="flex flex-initial items-center pr-10">
           <ToggleButton
-            value={toggle}
-            onToggle={() => {
-              setToggle((value) => !value);
-            }}
+            value={ toggle }
+            onToggle={ () => {
+              setToggle( ( value ) => !value );
+            } }
           />
         </div>
         <div className="flex flex-initial items-center pr-10 ">
@@ -77,14 +77,14 @@ const Navbar1 = () => {
         <div className="flex items-center">
           <button
             type="button"
-            className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 text-center mr-2  dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800"
+            className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white px-4 border border-blue-500 hover:border-transparent rounded"
           >
             Login
           </button>
         </div>
       </div>
-      {/* right container ends */}
-    </div>
+      {/* right container ends */ }
+    </div >
   );
 };
 
