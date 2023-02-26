@@ -139,5 +139,34 @@
             "start_date": "6-3-2022",
             "work_mode": "remote"
         }
+    ],
+    "quiz": [
+        {
+            "id": "quiz-1",
+            "ques": "what is a eagle",
+            "op_1": "animal",
+            "op_2": "bird",
+            "op_3": "fish",
+            "op_4": "no of the above",
+            "c_ans": "bird"
+        },
+        {
+            "id": "quiz-2",
+            "ques": "what is a dog",
+            "op_1": "animal",
+            "op_2": "bird",
+            "op_3": "fish",
+            "op_4": "no of the above",
+            "c_ans": "animal"
+        },
+        {
+            "id": "quiz-3",
+            "ques": "what is a shark",
+            "op_1": "animal",
+            "op_2": "bird",
+            "op_3": "fish",
+            "op_4": "no of the above",
+            "c_ans": "fish"
+        }
     ]
 }

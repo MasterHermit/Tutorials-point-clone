@@ -11,10 +11,8 @@ const Jobs = () => {
   } else if ( error ) {
     jobs = <div>{ error }</div>;
   } else {
-    jobs = data.map( ( job ) => {
-      return <JobsCard key={ job.id } job={ job } />
-    } )
-
+    jobs = data;
+    console.log(jobs);
   }
   return (
     <div className="flex flex-row">
