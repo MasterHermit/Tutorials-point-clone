@@ -1,0 +1,236 @@
+/**********************************
+new design of course card
+***********************************/
+.row-card-course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px auto;
+  }
+  
+  .row-card-course .course-card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .row-card-course .course-card > .thumbnail {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .course-card .thumbnail {
+    padding: 0;
+    border: none;
+    text-align: center;
+    border-radius: 0;
+    margin: 0 auto;
+    width: 255px;
+    background: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: normal;
+  }
+  
+  .course-card .thumbnail .full-length {
+    height: 5px;
+    width: 100%;
+    background: #bcbcbc;
+    display: block;
+  }
+  
+  .course-card .thumbnail .current-length {
+    height: 100%;
+    width: 68%;
+    background: red;
+    display: block;
+  }
+  
+  .course-card .course-card-image {
+    width: auto;
+    height: auto;
+    margin-bottom: -40px;
+    min-height: 190px;
+  }
+  
+  .course-card .course-card-image > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .course-card .course-card-image > a > img {
+    width: 100%;
+    min-height: 185px;
+  }
+  
+  .course-card .course-card-image > a:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  
+  .course-card .course-card-image > a:after {
+    position: absolute;
+    content: '►';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 166px;
+    border: 0;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center center;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    opacity: 0;
+  }
+  
+  .course-card .course-card-image > a:hover:before {
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .course-card .course-card-image > a:hover:after {
+    opacity: 1;
+  }
+  
+  .course-card .thumbnail .caption {
+    margin: 0 auto;
+    width: 230px;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #E9E9E9;
+  }
+  
+  .course-card .course-title {
+    min-height: 40px;
+  }
+  
+  .course-title-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .course-title-heading a {
+    font-size: 17px;
+    font-weight: 400;
+    color: #444;
+    text-decoration: none;
+    display: inherit;
+    line-height: 20px;
+  }
+  
+  .course-title-heading a:hover {
+    color: #222;
+  }
+  
+  .course-card .btn-group {
+    width: 100%;
+  }
+  
+  .course-card .btn-group .course-card-btn {
+    background: transparent;
+    border-color: transparent;
+    color: #444;
+    font-size: 18px;
+  }
+  
+  .course-card .course-fav-cost {
+    border-top: 1px solid #bcbcbc;
+    border-bottom: 1px solid #bcbcbc;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 4px 0;
+    text-align: left;
+    margin: 10px auto;
+  }
+  
+  .course-card .course-fav-cost .course-rating-star {
+    padding-left: 0;
+    width: 70%;
+    float: left;
+  }
+  
+  .course-card .course-fav-cost .course-rating-star img {
+    height: 10px;
+    width: auto;
+  }
+  
+  .course-card .course-fav-cost .course-rating-star .course-rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+  
+  .course-card .course-fav-cost .course-rating-star .course-rating > span > span {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    color: #2c5f00;
+  }
+  
+  .course-card .course-fav-cost .course-rating-star .course-rating > span > span.active:before,
+  .course-card .course-fav-cost .course-rating-star .course-rating > span > span.active ~ span:before {
+    content: "\2605";
+    position: absolute;
+  }
+  
+  .course-card .course-fav-cost .course-fav-price {
+    padding-right: 0;
+    width: 30%;
+    float: left;
+  }
+  
+  .course-card .course-fav-cost .course-fav-price .price-dollar {
+    color: #2c5f00;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 3px;
+  }
+  
+  .course-card .course-fav-cost .price {
+    padding-right: 0;
+  }
+  
+  .course-card .course-fav-cost .price .price-dollar {
+    color: #2c5f00;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 3px;
+  }
+  
+  .course-card-foot img {
+    width: 35px;
+    height: 35px;
+    padding: 0 10px 0 0;
+    box-sizing: content-box;
+  }
+  
+  .course-card-foot-name {
+    text-align: left;
+  }
+  
+  .course-card-foot .main-name {
+    color: #444;
+    font-size: 13px;
+    height: 100%;
+    line-height: 35px;
+    text-align: left;
+    display: table;
+  }
+  
+  .course-card-foot .main-name:hover,
+  .course-card-foot .main-name:focus {
+    text-decoration: none;
+  }
+  /* new design of course card end */
