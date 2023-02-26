@@ -12,7 +12,7 @@ const PremiumCards = () => {
     content = <div>{ error }</div>;
   } else {
     content = data.map( ( category ) => {
-      return <CourseCards />
+      return <CourseCards key={ category.id } category={ category } />
     } );
   }
   return (
@@ -25,7 +25,7 @@ const PremiumCards = () => {
         </div>
       </div>
       <div>
-        <CourseCards />
+        { content }
       </div>
     </div>
   )
