@@ -18,26 +18,26 @@ import ToggleButton from "react-toggle-button";
 
 const Navbar1 = () => {
   const dispatch = useDispatch();
-  const [isDark, setIsDark] = useState(
-    useSelector(({ user }) => {
+  const [ isDark, setIsDark ] = useState(
+    useSelector( ( { user } ) => {
       return user.isDark;
-    })
+    } )
   );
 
-  function handleToggleChange() {
-    dispatch(changeDarkMode());
-    setIsDark((prevValue) => !prevValue);
+  function handleToggleChange () {
+    dispatch( changeDarkMode() );
+    setIsDark( ( prevValue ) => !prevValue );
   }
   let bg = "";
-  if (isDark) {
+  if ( isDark ) {
     bg = "bg-[#1f2937] text-white";
   } else {
     bg = "bg-white";
   }
 
   return (
-    <div className={`flex ${bg} space-x-80`}>
-      {/* left container */}
+    <div className={ `flex ${bg} space-x-80` }>
+      {/* left container */ }
       <div className="flex">
         <img
           src="https://images.ctfassets.net/hrltx12pl8hq/3MiLYuOESJbXrwoeXUI012/ccba97119444af2f25aa9cfddaf844bf/05-logos_548082964.jpg?fit=fill&w=480&h=270&fm=webp"
@@ -70,11 +70,11 @@ const Navbar1 = () => {
           </div>
         </Link>
       </div>
-      {/* left container ends */}
-      {/* right container */}
+      {/* left container ends */ }
+      {/* right container */ }
       <div className="flex pl-36">
         <div className="flex flex-initial items-center pr-10">
-          <ToggleButton value={isDark} onToggle={handleToggleChange} />
+          <ToggleButton value={ isDark } onToggle={ handleToggleChange } />
         </div>
         <div className="flex flex-initial items-center pr-10 ">
           <SiGoogleclassroom className="pr-2 h-8 w-8" />
@@ -96,7 +96,7 @@ const Navbar1 = () => {
           </button>
         </div>
       </div>
-      {/* right container ends */}
+      {/* right container ends */ }
     </div>
   );
 };
